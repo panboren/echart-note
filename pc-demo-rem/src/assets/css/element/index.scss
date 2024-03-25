@@ -1,0 +1,27 @@
+// 出于性能原因，更加推荐你在类名下添加自定义 css 变量，而不是在全局的 :root 下
+
+/*@forward 'element-plus/theme-chalk/src/common/var.scss' with ($colors: (
+'primary': (// 主色
+   'base': #27ba9b ,
+),
+'success':(// 成功色
+'base': #1dc779
+),
+'warning':(// 警告色
+'base': #f17d09
+),
+
+'danger':(// 危险色
+'base': #1decec
+),
+
+'error':(// 错误色
+'base': #dc0968
+)
+));*/
+
+/*
+.el-input {
+  --el-input-bg-color: #ccc;
+  --el-input-text-color: green
+}*/
